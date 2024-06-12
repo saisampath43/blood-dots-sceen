@@ -73,8 +73,8 @@
                         dot.style.transition = 'transform 2s ease-out';
                         dot.style.transform = `translate(${Math.random() * window.innerWidth - dot.offsetLeft}px, ${Math.random() * window.innerHeight - dot.offsetTop}px)`;
                     });
-                }, Math.random() * 2000 + 1000); // Random wait time between 1 and 3 seconds
-            }, 6000); // cycle every 6 seconds
+                }, Math.random() * 200 + 2000); // Random wait time between 0.2 and 2 seconds
+            }, 3000); // cycle every 3 seconds
         }
 
         initDots();
